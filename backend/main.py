@@ -10,7 +10,7 @@ from typing import Optional, List
 
 import google.generativeai as genai
 
-from rag import build_index, load_index, search_rag
+from backend.rag import build_index, load_index, search_rag
 
 # =========================
 # ENV
